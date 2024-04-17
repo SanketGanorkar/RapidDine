@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <img src={assets.rapiddine} alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
             voluptatem asperiores fugiat! Error, repellat harum sequi culpa
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-content-center">
-          <h2>Company</h2>
+          <h2>Business</h2>
           <ul>
             <li>Home</li>
             <li>About us</li>
@@ -30,14 +30,14 @@ const Footer = () => {
         <h2>Get in Touch</h2>
         <ul>
           <li>+91-7587100578</li>
-          <li>contact@tomato.com</li>
+          <li>contact@rapiddine.com</li>
         </ul>
       </div>
       </div>
       
       <hr />
       <p className="footer-copyright">
-        Copyright 2024 © Tomato.com - All right reserved
+        Copyright 2024 © RapidDine.com - All right reserved
       </p>
     </div>
   );

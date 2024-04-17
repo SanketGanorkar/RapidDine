@@ -38,8 +38,8 @@ const PlaceOrder = () => {
               <p>Total</p>
               <p>{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2}</p>
             </div>
-          </div>
-          <button >
+          </div>  
+          <button onClick={()=> console.log('order done')}>
             PROCEED TO PAYMENT
           </button>
         </div>

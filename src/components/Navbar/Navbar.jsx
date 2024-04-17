@@ -14,7 +14,7 @@ const Navbar = ({ setShowLogin }) => {
   return (
     <div className="navbar">
       <Link to="/">
-        <img src={assets.logo} className="logo" />
+        <img src={assets.rapiddine} className="logo" />
       </Link>
       <ul className="navbar-menu">
         <li

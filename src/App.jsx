@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
     {showLogin ? <LoginPopup setShowLogin = {setShowLogin}/>: <></>}
-      <Router>
+      <Router basename="/food-del">
         <div className="app">
           <Navbar setShowLogin = {setShowLogin}/>
           <Routes>
